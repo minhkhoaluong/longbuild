@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Oswald', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+header .header__content1,
+.welcome,
+.number__content,
+.icon,
+.info__box,
+.footer__content1,
+.footer__content2 {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+header {
+    margin-top: 10px;
+}
+
+/* 
+header h1 i {
+    font-size: 20px;
+    color: #D5AD24;
+    background-color: #002146;
+    border-radius: 50%;
+    padding: 10px;
+} */
+
+header i,span{
+    color: brown;
+    font-size: 40px;    
+}
+
+header span{
+    margin-left: 10px;
+}
+
+header .header__content1 ul {
+    list-style: none;
+    margin: 20px;
+}
+
+header .header__content1 ul li {
+    display: inline;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header .header__content2 img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 200vh;
+    width: 100%; */
+}
+
+
+
+
+
+.welcome {
+    margin-top: 50px;
+}
+
+.welcome .welcome__1 {
+    float: left;
+    width: 50%;
+}
+
+.welcome .welcome__1 h1 {
+    margin-bottom: 15px;
+}
+
+.welcome .welcome__1 p {
+    color: #7D7D7D;
+    margin-bottom: 15px;
+}
+
+.welcome .welcome__1 button {
+    background-color: #FDC800;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+.welcome .welcome__2 {
+    float: left;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+.number {
+    background-color: #F6F6F6;
+    padding: 50px;
+}
+
+.number .number__content {}
+
+.number .number__item {
+    float: left;
+    width: 25%;
+
+}
+
+.number .number__item h2 {
+    font-size: 37px;
+    float: left;
+    width: 15%;
+}
+
+.number .number__item p {
+    float: left;
+    width: 50%;
+    margin: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
+.icon {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.icon .icon__content .icon__content__item {
+    float: left;
+    width: 25%;
+}
+
+.icon .icon__content .icon__content__item .icon__content__item__icon {
+    background-color: #002146;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+.info {
+    background-color: #F6F6F6;
+}
+
+.info .info__box {
+    padding-top: 80px;
+    height: 850px;
+}
+
+.info .info__content1 {
+    float: left;
+    width: 50%;
+}
+
+.info .info__content1 .info__content1__item {
+    margin-top: 50px;
+    background-color: white;
+    height: 550px;
+}
+
+.info .info__content1 .info__content1__item1 img {
+    float: left;
+    width: 30%;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.info .info__content1 .info__content1__item1 .text {
+    padding: 25px;
+}
+
+.info .info__content1 .info__content1__item1 .text h3 {
+    margin-bottom: 5px;
+}
+
+.info .info__content1 .info__content1__item1 .text p:nth-child(2) {
+    color: #808080;
+}
+
+.info .info__content1 .info__content1__item1 .text p:nth-child(3) {
+    margin-top: 10px;
+    color: #808080;
+}
+
+.info .info__content1 .info__content1__item hr {
+    border: 1px #808080 solid;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.info .info__content2 {
+    float: left;
+    width: 50%;
+}
+
+.info .info__content2 h1 {
+    padding-left: 50px;
+}
+
+.info .info__content2 .info__content2__item {
+    margin: 50px 0 50px 50px;
+    /* background-color: aquamarine; */
+}
+
+.info .info__content2 .info__content2__item .info__content2__item1 {
+    background-color: white;
+    height: 245px;
+}
+
+.info .info__content2 .info__content2__item .info__content2__item2 {
+    margin-top: 25px;
+    background-color: white;
+    height: 245px;
+}
+
+
+.info .info__content2 .info__content2__item .info__content2__item1__1 {
+    float: left;
+    width: 30%;
+    width: 100px;
+    padding: 30px;
+    text-align: center;
+}
+
+.info .info__content2 .info__content2__item .info__content2__item1__1 h3 {
+    background-color: #FDC800;
+    padding: 15px 10px 0 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.info .info__content2 .info__content2__item .info__content2__item1__1 p:nth-child(2) {
+    background-color: #FDC800;
+    padding: 0 10px 0 10px;
+
+}
+
+.info .info__content2 .info__content2__item .info__content2__item1__1 p:nth-child(3) {
+    background-color: #002146;
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+}
+
+.info .info__content2 .info__content2__item .info__content2__item1__2 {
+    float: left;
+    width: 60%;
+}
+
+.info .info__content2 .info__content2__item .info__content2__item1__2 h3 {
+    margin-bottom: 5px;
+    padding-top: 27px;
+}
+
+.info .info__content2 .info__content2__item .info__content2__item1__2 p:nth-child(2) {
+    color: #808080;
+
+}
+
+.info .info__content2 .info__content2__item .info__content2__item1__2 p:nth-child(3) {
+    color: #002146;
+    margin-top: 5px;
+
+}
+
+.info .info__content2 .info__content2__item .info__content2__item1__2 p:nth-child(3) span {
+    border: 1px;
+    width: 60%;
+    border-color: #7D7D7D;
+    border-left-style: solid;
+    margin-left: 5px;
+    padding: 5px;
+
+}
+
+.info button {
+    margin-top: 10px;
+    background-color: #FDC800;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.info .info__content1 button {
+
+    position: absolute;
+    left: 39%;
+}
+
+.info .info__content2 button {
+
+    position: absolute;
+    right: 14%;
+}
+
+
+
+
+
+.footer {
+    background-color: #002146;
+    color: white;
+}
+.footer .footer__content1{
+    padding-top: 40px;
+}
+.footer .footer__content1 i{
+    color: #FDC800;
+    margin-right: 1px;
+}
+.footer .footer__content1 hr{
+    border: 1px solid #808080;
+    margin: 30px 0;
+}
+.footer .footer__content1 .footer__content__item {
+    float: left;
+    width: 33%;
+}
+.footer .footer__content1 .footer__content__item ul{
+    list-style: none;
+}
+.footer .footer__content1 .footer__content__item ul li{
+    margin-top: 15px;
+}
+.footer .footer__content1 .footer__content__item h2, .footer p {
+    margin-top: 15px;
+}
+
+.footer .footer__content2{
+    padding-bottom: 60px ;
+}
