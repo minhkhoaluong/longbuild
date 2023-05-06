@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Magnific popup  -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+    <!-- Owl carousel -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <!-- line-awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" />
+    <!-- fontAwsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <!-- google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;500;700&family=Jost:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;700&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/landing-page.css">
+</head>
+
+<body id="myBody">
+    <header>
+        <div class="header__content container">
+            <nav class="navbar navbar-expand-lg p-0  py-lg-2">
+                <a class="navbar-brand" href="#">
+                    Pooch Care
+                </a>
+                <!-- thêm class " collapsed " vào để bật tắt icon bars, icon close -->
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCare"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class=" navbar-toggler-icon  fa-solid fa-bars"></i>
+                    <i class=" navbar-toggler-icon  fa-solid fa-xmark"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCare">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="line nav-link" href="./index.html"><span>Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="line nav-link" href="#about"><span>About</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="line nav-link" href="#service"><span>Service</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="line nav-link" href="#plan"><span>Plans</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="line nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>Sections</span><i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#team"><span>Team</span></a>
+                                <a class="dropdown-item" href="#stats"><span>Stats</span></a>
+                                <a class="dropdown-item" href="#video"><span>Video</span></a>
+                                <a class="dropdown-item" href="#testimonial"><span>Testimonial</span></a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="line nav-link" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="switchButton-mobile">
+                    <div id="switchButton">
+                        <i class="fa-regular fa-sun"></i>
+                        <i class="fa-regular fa-moon"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="carouselCare" >
+        <div id="carouselCare" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselCare" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselCare" data-slide-to="1"></li>
+                <li data-target="#carouselCare" data-slide-to="2"></li>
+                <li data-target="#carouselCare" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                    <div class="carousel-caption container ">
+                        <h5>Quality Things For Loving Pets</h5>
+                        <p>Keeps Your Pets Smiling</p>
+                        <button>Read More</button>
+                        <button>Contact Us</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                    <div class="carousel-caption container carouselCare__caption-center">
+                        <h5>Delivering Happiness For Pets</h5>
+                        <p>We Help Your Project</p>
+                        <button>Read More</button>
+                        <button>Contact Us</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                    <div class="carousel-caption container ">
+                        <h5>Quality Things For Loving Pets</h5>
+                        <p>Keeps Your Pets Smiling</p>
+                        <button>Read More</button>
+                        <button>Contact Us</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                    <div class="carousel-caption container carouselCare__caption-center">
+                        <h5>Delivering Happiness For Pets</h5>
+                        <p>We Help Your Project</p>
+                        <button>Read More</button>
+                        <button>Contact Us</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about__top section text-center">
+            <div class="title">
+                <p>ABOUT US</p>
+                <h3>We Love Your Pets Like They Are Our Own</h3>
+            </div>
+            <div class="about__desc">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur
+                    consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                    Nulla
+                    mollis dapibus nunc, ut rhoncus turpis sodales quis.</p>
+                <button href="" class="btn__read-more">Read More</button>
+            </div>
+        </div>
+        <div class="about__bottom section">
+            <div class="about__cards container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4 ">
+                        <div class="about__card">
+                            <i class="fa-regular fa-snowflake"></i>
+                            <h3><a href="">Dog Walking</a></h3>
+                            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum
+                                dolor sit amet Ut
+                                blandit eu leo.</p>
+                            <button href="" class="btn__read-more">Read More</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 ">
+                        <div class="about__card">
+                            <i class="fa fa-cutlery"></i>
+                            <h3><a href="">Healthy Meals</a></h3>
+                            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum
+                                dolor sit amet Ut
+                                blandit eu leo.</p>
+                            <button href="" class="btn__read-more">Read More</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 ">
+                        <div class="about__card">
+                            <i class="fa fa-sign-language"></i>
+                            <h3><a href="">Pet Sitting</a></h3>
+                            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum
+                                dolor sit amet Ut
+                                blandit eu leo.</p>
+                            <button href="" class="btn__read-more">Read More</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 ">
+                        <div class="about__card">
+                            <i class="fa fa-sitemap"></i>
+                            <h3><a href="">Dog Activities</a></h3>
+                            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum
+                                dolor sit amet Ut
+                                blandit eu leo.</p>
+                            <button href="" class="btn__read-more">Read More</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 ">
+                        <div class="about__card">
+                            <i class="fa fa-shower"></i>
+                            <h3><a href="">Pet Daycare</a></h3>
+                            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum
+                                dolor sit amet Ut
+                                blandit eu leo.</p>
+                            <button href="" class="btn__read-more">Read More</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 ">
+                        <div class="about__card">
+                            <i class="fa fa-user-md"></i>
+                            <h3><a href="">Pet Grooming</a></h3>
+                            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum
+                                dolor sit amet Ut
+                                blandit eu leo.</p>
+                            <button href="" class="btn__read-more">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="offer" id="service">
+        <div class="offer__content  section">
+            <!--thêm container bọc ở ngoài row chứ ko để trên offer__content-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 mb-4 mb-lg-0 ">
+                        <div class="offer__left ">
+                            <img class="img-fluid" src="./img/ab.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6  ">
+                        <div class="offer__right ">
+                            <div class="title">
+                                <p>WHY CHOOSE US</p>
+                                <h3>What We Offer For You</h3>
+                            </div>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor
+                                incididunt ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.Lorem ipsum dolor sit amet,
+                                consectetur
+                                adipisicingelit,</h4>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i><span>Certified Groomer</span></li>
+                                <li><i class="fa-solid fa-check"></i><span>10 Years of Experience</span></li>
+                                <li><i class="fa-solid fa-check"></i><span>Pet Lover</span></li>
+                                <li><i class="fa-solid fa-check"></i><span>Customer Supports</span></li>
+                                <li><i class="fa-solid fa-check"></i><span>Veterinary Help</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team section" id="team">
+        <div class="container">
+            <div class="team__content">
+                <div class="title text-center mb-5">
+                    <p>OUR EXPERTS</p>
+                    <h3>Our Team</h3>
+                </div>
+                <div class="team__cards">
+                    <div class="row text-center">
+                        <div class="col-6 mb-4  col-lg-3">
+                            <div class="team__card">
+                                <div class="team__pic">
+                                    <img class="img-fluid" src="./img/team1.jpg" alt="">
+                                </div>
+                                <div class="team__name">
+                                    <a href="#">Micheal Wagou</a>
+                                    <p>Training</p>
+                                </div>
+                                <div class="team__social">
+                                    <a href="#facebook"> <i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-4  col-lg-3">
+                            <div class="team__card">
+                                <div class="team__pic">
+                                    <img class="img-fluid" src="./img/team2.jpg" alt="">
+                                </div>
+                                <div class="team__name">
+                                    <a href="#">Alex Mitchell</a>
+                                    <p>Boarding</p>
+                                </div>
+                                <div class="team__social">
+                                    <a href="#facebook"> <i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6    col-lg-3">
+                            <div class="team__card">
+                                <div class="team__pic">
+                                    <img class="img-fluid" src="./img/team3.jpg" alt="">
+                                </div>
+                                <div class="team__name">
+                                    <a href="#">Scott Colon</a>
+                                    <p>Grooming</p>
+                                </div>
+                                <div class="team__social">
+                                    <a href="#facebook"> <i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6   col-lg-3">
+                            <div class="team__card">
+                                <div class="team__pic">
+                                    <img class="img-fluid" src="./img/team4.jpg" alt="">
+                                </div>
+                                <div class="team__name">
+                                    <a href="#">John Harris</a>
+                                    <p>Doggie Day Care</p>
+                                </div>
+                                <div class="team__social">
+                                    <a href="#facebook"> <i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="number section" id="stats">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="number__item">
+                        <h3 class="counter">730</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="number__item">
+                        <h3 class="counter">80</h3>
+                        <p>Professionals</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="number__item">
+                        <h3 class="counter">812</h3>
+                        <p>Adopted Pets</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="number__item">
+                        <h3 class="counter">90</h3>
+                        <p>Awards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video section" id="video">
+        <div class="video__content container">
+            <div class="title text-center ">
+                <p>BETTER PET NUTRITION.</p>
+                <h3>The Finest Fresh Food And All Your Pet Needs.</h3>
+                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet elit consec
+                    tetur
+                    adipisi elit. Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Iure voluptatibus explicabo
+                    officia.
+                </h4>
+            </div>
+            <div class="video__pic mt-3 mt-md-5">
+                <img class="img-fluid" src="./img/banner2.jpg" alt="">
+                <a href="#small-dialog1" class="play-icon popup-with-zoom-anim">
+                    <i class="fa-solid fa-play"></i>
+                </a>
+                <div id="small-dialog1" class="w3ls_small_dialog wthree_pop mfp-hide">
+                    <div class="agileits_modal_body">
+                        <iframe src="https://player.vimeo.com/video/106770833"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="plan section text-center" id="plan">
+        <div class="container">
+            <div class="plan__content">
+                <div class="title">
+                    <p>Our Plans</p>
+                    <h3>Affordable Packages</h3>
+                </div>
+                <div class="plan__cards">
+                    <div class="plan__card plan__card--left">
+                        <div class="plan__card-top">
+                            <h4>Free Package</h4>
+                            <h5><label>$</label>0<span>/month</span></h5>
+                        </div>
+                        <div class="plan__card-bottom">
+                            <p>5 Dog Walk</p>
+                            <p>3 Vet Visit</p>
+                            <p>3 Pet Spa</p>
+                            <p>Free Supports</p>
+                            <p>Customer Support</p>
+                            <button class="my_button">Buy Now</button>
+                        </div>
+                    </div>
+
+                    <div class="plan__card plan__card--middle">
+                        <div class="plan__card-top">
+                            <p>SAVE 10%</p>
+                            <h4>Standard Package</h4>
+                            <h5><label>$</label>39<span>/month</span></h5>
+                        </div>
+                        <div class="plan__card-bottom">
+                            <p>5 Dog Walk</p>
+                            <p>3 Vet Visit</p>
+                            <p>3 Pet Spa</p>
+                            <p>Free Supports</p>
+                            <p>Customer Support</p>
+                            <button class="my_button">Get Started</button>
+                        </div>
+                    </div>
+
+                    <div class="plan__card plan__card--right">
+                        <div class="plan__card-top">
+                            <h4>Pro Package</h4>
+                            <h5><label>$</label>89<span>/month</span></h5>
+                        </div>
+                        <div class="plan__card-bottom">
+                            <p>5 Dog Walk</p>
+                            <p>3 Vet Visit</p>
+                            <p>3 Pet Spa</p>
+                            <p>Free Supports</p>
+                            <p>Customer Support</p>
+                            <button class="my_button">Buy Now</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="stay-updated section">
+        <div class="container">
+            <div class="title text-center">
+                <h3>Stay Updated!</h3>
+                <h4>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis
+                    dapibus
+                    nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</h4>
+            </div>
+            <div class="row">
+                <div class="col-12  mb-3 mt-3 col-md-8 px-md-0 mt-md-0 mb-md-0">
+                    <div class="stay-updated__input">
+                        <input type="email" placeholder="Enter your email...">
+                    </div>
+                </div>
+                <div class="col-12   col-md-4">
+                    <div class="stay-updated__button">
+                        <button class="my_button">Subcribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial section" id="testimonial">
+        <div class="container">
+            <div class="title text-center mb-3 mb-md-5">
+                <p>TESTIMONIALS</p>
+                <h3>Happy Clients & Feedbacks</h3>
+            </div>
+            <div class="testimonial__carousel">
+                <div class="owl-carousel owl-theme">
+                    <div class="testimonial__cmt">
+                        <div class="testimonial__quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores optio accusamus autem
+                                consectetur,
+                                saepe quidem praesentium obcaecati rerum eum debitis.</span>
+                        </div>
+                        <div class="testimonial__person">
+                            <div class="testimonial__pic">
+                                <img src="./img/f1.jpg" alt="">
+                            </div>
+                            <div class="testimonial__name">
+                                <h3>John Wilson</h3>
+                                <p>Example City</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial__cmt">
+                        <div class="testimonial__quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores optio accusamus autem
+                                consectetur,
+                                saepe quidem praesentium obcaecati rerum eum debitis.</span>
+                        </div>
+                        <div class="testimonial__person">
+                            <div class="testimonial__pic">
+                                <img src="./img/f2.jpg" alt="">
+                            </div>
+                            <div class="testimonial__name">
+                                <h3>John Wilson</h3>
+                                <p>Example City</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial__cmt">
+                        <div class="testimonial__quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores optio accusamus autem
+                                consectetur,
+                                saepe quidem praesentium obcaecati rerum eum debitis.</span>
+                        </div>
+                        <div class="testimonial__person">
+                            <div class="testimonial__pic">
+                                <img src="./img/f4.jpg" alt="">
+                            </div>
+                            <div class="testimonial__name">
+                                <h3>John Wilson</h3>
+                                <p>Example City</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial__cmt">
+                        <div class="testimonial__quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores optio accusamus autem
+                                consectetur,
+                                saepe quidem praesentium obcaecati rerum eum debitis.</span>
+                        </div>
+                        <div class="testimonial__person">
+                            <div class="testimonial__pic">
+                                <img src="./img/f3.jpg" alt="">
+                            </div>
+                            <div class="testimonial__name">
+                                <h3>John Wilson</h3>
+                                <p>Example City</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial__cmt">
+                        <div class="testimonial__quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores optio accusamus autem
+                                consectetur,
+                                saepe quidem praesentium obcaecati rerum eum debitis.</span>
+                        </div>
+                        <div class="testimonial__person">
+                            <div class="testimonial__pic">
+                                <img src="./img/f2.jpg" alt="">
+                            </div>
+                            <div class="testimonial__name">
+                                <h3>John Wilson</h3>
+                                <p>Example City</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact section" id="contact">
+        <div class="title text-center mb-5">
+            <p>FIND US</p>
+            <h3>Get In Touch With Us</h3>
+        </div>
+        <div class="contact__items container">
+            <div class="row">
+                <div class="col-12 col-lg-8 mb-5 mb-lg-0">
+                    <div class="contact__form">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 px-md-0 mb-4  pr-md-2">
+                                <input type="text" placeholder="Name">
+                            </div>
+                            <div class="col-12 col-sm-6 px-md-0 mb-4  pl-md-3">
+                                <input type="email" placeholder="Email">
+                            </div>
+                            <div class="col-12  px-md-0 mb-4">
+                                <input type="text" placeholder="Subject">
+                            </div>
+                            <div class="col-12  px-md-0 mb-4">
+                                <textarea name="" id="" cols="20" rows="5" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="contact__form-button">
+                            <button class="my_button">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="contact__address">
+                        <div class="address-item d-flex">
+                            <div class="address__icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="address__desc">
+                                <h4>Address</h4>
+                                <p>#135 block, Barnard St. Brooklyn, London 10036, UK</p>
+                            </div>
+                        </div>
+                        <div class="address-item d-flex">
+                            <div class="address__icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="address__desc">
+                                <h4>Telephone</h4>
+                                <p><a href="#">+(12)234-11-24</a></p>
+                                <p><a href="#">+(12)234-11-30</a></p>
+                            </div>
+                        </div>
+                        <div class="address-item d-flex">
+                            <div class="address__icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="address__desc ">
+                                <h4>Email Us</h4>
+                                <p><a href="#">example@mail.com</a></p>
+                                <p><a href="#">example@mail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="myMap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1833769497894!2d106.7156984141166!3d10.797263061762854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529925c7d6f19%3A0x8f41d0868ea671f2!2s2PM%20Coffee!5e0!3m2!1svi!2s!4v1665759864449!5m2!1svi!2s"  frameborder="0"   allowfullscreen style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer>
+        <div class="footer__content section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-4 col-md-6  col-lg-6 mb-lg-0">
+                        <div class="footer__item">
+                            <h3>Contact information</h3>
+                            <p><span>Address : </span>#135 block, Barnard St. Brooklyn, London 10036, UK</p>
+                            <p><span>Phone : </span><a href="#">+(12)234-11-24</a></p>
+                            <p><span>Email : </span><a href="#">example@mail.com</a></p>
+                            <i><a href="#"><i class="fa-brands fa-facebook-f"></i></a></i>
+                            <i><a href="#"><i class="fa-brands fa-twitter"></i></a></i>
+                            <i><a href="#"><i class="fa-brands fa-dribbble"></i></a></i>
+                            <i><a href="#"><i class="fa-brands fa-google"></i></a></i>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4 col-sm-6 col-md-6 col-lg-2 mb-lg-0">
+                        <div class="footer__item">
+                            <h3>Company</h3>
+                            <p><a href="#">About Us</a></p>
+                            <p><a href="#">Blog Posts</a></p>
+                            <p><a href="#">Services</a></p>
+                            <p><a href="#">Pricing</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4  col-sm-6 col-md-6 col-lg-2 mb-lg-0">
+                        <div class="footer__item">
+                            <h3>Quick Links</h3>
+                            <p><a href="#">Contact Us</a></p>
+                            <p><a href="#">Create account</a></p>
+                            <p><a href="#">Care Center</a></p>
+                            <p><a href="#">Site Feedback</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4   col-sm-6 col-md-6 col-lg-2 mb-lg-0">
+                        <div class="footer__item">
+                            <h3>Support</h3>
+                            <p><a href="#">All Dogs</a></p>
+                            <p><a href="#">Care Advices</a></p>
+                            <p><a href="#">Care Support</a></p>
+                            <p><a href="#">Veterinary Help</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <div class="copyright text-center ">
+        <p>© 2020 Pooch Care. All Rights Reserved. Design by <span>Name</span></p>
+    </div>
+
+
+
+
+
+
+    <!-- backToTop -->
+    <a class="backToTop cd-top text-replace js-cd-top" href="#"><i class="las la-level-up-alt"></i></a>
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- dark and light theme  -->
+    <script>
+        /**
+       Solution: 
+       Khi click vào nút moon 🌙 , thẻ body sẽ được thêm class dark.
+       Dựa vào class dark, ta viết css dành riêng cho dark theme.
+       Ngược lại, khi click vào nút sun ☀️, ta sẽ xóa class dark để css light theme hiện lại
+       */
+        //gọi thẻ button có id là switchButton
+        // gắn chức năng click cho switchButton
+        document.getElementById("switchButton").onclick = function () {
+            //khi button được click thì tìm đến thẻ body có id là myBody
+            // dùng classlist để gọi thuộc tính class của thẻ body
+            //Sử dụng toggle() để thêm hoặc xóa 1 class của thẻ html. Nếu thẻ body không có class dark thì toggle sẽ thêm class dark vào body. Ngược lại, nếu thẻ body đang có class dark thì toogle sẽ xóa class dark đi.
+            document.getElementById("myBody").classList.toggle("dark");
+        };
+    </script>
+
+    <!-- Owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                992: {
+                    items: 2
+                }
+            }
+        })
+    </script>
+    <!-- backToTop -->
+    <script src="./js/backToTop.js"></script>
+    <script src="./js/util.js"></script>
+    <!-- waypoint -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <!-- countNumber -->
+    <script src="./js/jquery.countup.min.js"></script>
+    <script>
+        $('.counter').countUp({
+            'time': 1000,
+            'delay': 10
+        });
+    </script>
+    <!-- magnific -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <!-- magnific-function-init  -->
+    <script>
+        $(document).ready(function () {
+            $(".popup-with-zoom-anim").magnificPopup({
+                type: "inline",
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: "auto",
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: "my-mfp-zoom-in"
+            });
+        });
+
+    </script>
+</body>
+
+</html>

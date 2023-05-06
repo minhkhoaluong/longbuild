@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- line-awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" />
+    <!-- fontAwsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <!-- google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;500;700&family=Jost:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;700&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/service.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/blog-post.css">
+    <link rel="stylesheet" href="./css/blog-single.css">
+</head>
+
+<body id="myBody">
+    <header>
+        <div class="header__content container">
+            <nav class="navbar navbar-expand-lg p-0  py-lg-2">
+                <a class="navbar-brand" href="#">
+                    Pooch Care
+                </a>
+                <!-- thêm class " collapsed " vào để bật tắt icon bars, icon close -->
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCare"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class=" navbar-toggler-icon  fa-solid fa-bars"></i>
+                    <i class=" navbar-toggler-icon  fa-solid fa-xmark"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCare">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="line nav-link" href="./index.html"><span>Home</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="line nav-link" href="./about.html"><span>About</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="line nav-link" href="./service.html"><span>Service</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="line nav-link" href="./gallery.html"><span>Gallery</span></a>
+                        </li>
+                        <li class="nav-item dropdown  active">
+                            <a class="line nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>Blog</span><i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="./blog-post.html"><span>Blog Posts</span></a>
+                                <a class="dropdown-item" href="#"><span>Blog single</span></a>
+                                <a class="dropdown-item" href="./landing-page.html"><span>Landing Page</span></a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="line nav-link" href="./contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="switchButton-mobile">
+                    <div id="switchButton">
+                        <i class="fa-regular fa-sun"></i>
+                        <i class="fa-regular fa-moon"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="breadcrumb-About">
+        <div class="breadcrumb-About__content ">
+            <h2>Blog Single</h2>
+            <ol class="breadcrumb ">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <span>Blog</span>
+                </li>
+            </ol>
+        </div>
+    </section>
+    <section class="blog section">
+        <div class="container">
+            <div class="title text-center">
+                <span>Pooch Care</span>
+                <h3>It Is A Long Established Fact A Reader Be Distracted</h3>
+                <!-- dùng ul-li để chia phần này, thẻ li dùng display inline block  -->
+                <ul class="blog__list">
+                    <li><i class="las la-clock"></i> <span> May 24 2020</span></li>
+                    <li><i class="las la-user ml-4"></i><span> By admin</span></li>
+                    <li><i class="las la-heart ml-4"></i><span> 48 likes</span></li>
+                    <li><i class="las la-comments ml-4"></i><span> 12 comments</span></li>
+                </ul>
+            </div>
+            <div class="blog__pic mt-4">
+                <img class="img-fluid  " src="./img/banner4.jpg" alt="">
+            </div>
+            <div class="blog__content">
+                <p class="my-3">It is a long established fact that a reader will be distracted by the readable content
+                    of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, as opposed to using 'Content here, content here', making it look
+                    like readable English. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, hic
+                    reprehenderit eum cupiditate deleniti asperiores illum ad tenetur aliquam culpa fugit odit
+                    consequatur. Rerum illo accusantium aliquid quae adipisci fugiat sapiente delectus unde architecto.
+                    Tempore saepe maxime illo laborum obcaecati.</p>
+                <div class="blog__text my-3">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 mb-3 m-lg-0">
+                            <div class="blog__pic">
+                                <img class="img-fluid" src="./img/g1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum perspiciatis repellendus
+                                velit nam fuga asperiores nemo commodi enim corrupti est tenetur placeat veritatis,
+                                dolores laborum illo, ducimus aut suscipit voluptate quo amet ratione magni nesciunt?
+                                Fuga expedita earum veritatis optio dolorum deserunt eos. Non in temporibus similique
+                                quibusdam nihil qui, consequatur, debitis ipsa aperiam dicta possimus itaque unde hic,
+                                voluptatum expedita.</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="my-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis beatae ullam expedita.
+                    Ut explicabo minima fugit ipsum sapiente fuga et facere est autem iste ducimus totam accusamus quasi
+                    distinctio, excepturi voluptatum harum porro nostrum nemo iusto culpa expedita cupiditate omnis.
+                    Animi iusto officiis at voluptates vel laboriosam eum error voluptas. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit.</p>
+                <div class="blog__cmt my-5">
+                    <i class="fa-solid fa-quote-left"></i><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Fugiat nam, quos facere dolor repellendus odio. Voluptatum provident quasi necessitatibus
+                        laboriosam alias</span><i class="fa-solid fa-quote-right"></i>
+                    <p> Alexander smith</p>
+                </div>
+                <div class="final__paragraph">
+                    <h4>It is a long established fact a reader be distracted.</h4>
+                    <h5>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using 'Content here, content here', making it look like
+                        readable English.</h5>
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam, quos facere
+                        dolor repellendus odio. Voluptatum provident quasi necessitatibus laboriosam alias dicta quis
+                        voluptate minus minima dolorum quod, quaerat modi veritatis libero! Culpa facilis enim optio
+                        veniam voluptas. Laudantium explicabo optio quam ea deleniti odio totam adipisci illo, enim quos
+                        corrupti. Animi labore natus at quas laborum. Soluta, nam molestiae.</p>
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, tenetur amet.
+                        Quibusdam nemo aut ut non aliquam nam est quae aspernatur repellendus illo id earum ipsa debitis
+                        saepe maiores quasi voluptate, sunt reiciendis voluptatibus veniam pariatur? Tempore laudantium
+                        libero adipisci.</p>
+                    <div class="blog__text my-3">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3 m-lg-0">
+                                <div class="blog__pic">
+                                    <img class="img-fluid" src="./img/g2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum perspiciatis
+                                    repellendus velit nam fuga asperiores nemo commodi enim corrupti est tenetur placeat
+                                    veritatis, dolores laborum illo, ducimus aut suscipit voluptate quo amet ratione
+                                    magni nesciunt? Fuga expedita earum veritatis optio dolorum deserunt eos. Non in
+                                    temporibus similique quibusdam nihil qui, consequatur, debitis ipsa aperiam dicta
+                                    possimus itaque unde hic, voluptatum expedita.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__text my-3">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3 m-lg-0 order-lg-2">
+                                <div class="blog__pic">
+                                    <img class="img-fluid" src="./img/g3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-8 order-lg-1">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum perspiciatis
+                                    repellendus velit nam fuga asperiores nemo commodi enim corrupti est tenetur placeat
+                                    veritatis, dolores laborum illo, ducimus aut suscipit voluptate quo amet ratione
+                                    magni nesciunt? Fuga expedita earum veritatis optio dolorum deserunt eos. Non in
+                                    temporibus similique quibusdam nihil qui, consequatur, debitis ipsa aperiam dicta
+                                    possimus itaque unde hic, voluptatum expedita.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__share">
+                        <span>Share this post : </span>
+
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="blog__media-cmt ">
+       <div class="container">
+        <div class="media__content">
+            <div class="prev-next d-flex">
+                <div class="prev-post">
+                    <p><i class="fa-solid fa-angles-left"></i> Prev Post</p>
+                    <div class="prev-link d-flex align-items-center">
+                        <a class="mr-3" href="#"> <img class="img-fluid" src="./img/g5.jpg" alt=""></a>
+                         <a href="#">Lorem ipsum dolor sit amet.</a>
+                     </div>
+                </div>
+                <div class="next-post text-right">
+                    <p>Prev Post <i class="fa-solid fa-angles-right"></i></p>
+                    <div class="next-link d-flex justify-content-end align-items-center">
+                       
+                        <a class="mr-3" href="#">Lorem ipsum dolor sit amet.</a>
+                        <a href="#"><img class="img-fluid" src="./img/g6.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="recent__cmt">
+                <h3 class="mb-5">Recent Comments</h3>
+                <div class="media">
+                    <img class="img-fluid" src="./img/f1.jpg" class="mr-3" alt="...">
+                    <div class="media-body ml-3">
+                      <h5 class="mt-0">Alisa larden</h5>
+                      <h6>4 hours ago</h6>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, officiis rerum assumenda facere maxime accusamus cum. Numquam harum vitae id. Nemo qui fugiat nam quasi?</p>
+                        <a href="#">Reply</a>
+                      <div class="media mt-3">
+                        <a class="mr-3" href="#">
+                          <img class="img-fluid" src="./img/f3.jpg" alt="...">
+                        </a>
+                        <div class="media-body">
+                          <h5 class="mt-0">Maxwell ker</h5>
+                          <h6>18 minutes ago</h6>
+                          <p>In gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia felis in .
+                            </p>
+                            <a href="#">Reply</a>
+                        </div>
+                      </div>
+                    </div>
+                   
+                </div>
+                <div class="media mt-5">
+                    <img class="img-fluid" src="./img/f2.jpg" class="mr-3" alt="...">
+                    <div class="media-body ml-3">
+                      <h5 class="mt-0">Alisa larden</h5>
+                      <h6>4 hours ago</h6>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, officiis rerum assumenda facere maxime accusamus cum. Numquam harum vitae id. Nemo qui fugiat nam quasi?</p>
+                        <a href="#">Reply</a>
+                      <div class="media mt-3">
+                        <a class="mr-3" href="#">
+                          <img class="img-fluid" src="./img/f1.jpg" alt="...">
+                        </a>
+                        <div class="media-body">
+                          <h5 class="mt-0">Maxwell ker</h5>
+                          <h6>18 minutes ago</h6>
+                          <p>In gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia felis in .
+                            </p>
+                            <a href="#">Reply</a>
+                        </div>
+                      </div>
+                      <div class="media mt-3">
+                        <a class="mr-3" href="#">
+                          <img class="img-fluid" src="./img/f4.jpg" alt="...">
+                        </a>
+                        <div class="media-body">
+                          <h5 class="mt-0">Maxwell ker</h5>
+                          <h6>18 minutes ago</h6>
+                          <p>In gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia felis in .
+                            </p>
+                            <a href="#">Reply</a>
+                        </div>
+                      </div>
+                    </div>
+                   
+                </div>
+            </div>
+           
+        </div>
+        </div>
+       </div>
+    </section>
+    <section class="leave-reply section">
+        <div class="container">
+            <div class="related-post  ">
+                <h2 class="">Related posts</h2>
+                <div class="row mt-4">
+                    <div class=" col-12 col-md-6 mb-4 mb-md-0 ">
+                        <div class="blog__item">
+                            <div class="blog__pic">
+                                <a href="#"><img class="img-fluid" src="./img/g1.jpg" alt=""></a>
+                             </div>
+                             <div class="blog__desc">
+                                 <a href="#">Delivering Happiness For Pets</a>
+                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, deserunt.</p>
+                                 <a href="#">John Smith</a><span> - May 23, 2020</span>
+                                 <div class="blog__cmt-view">
+                                     <i class="fa-solid fa-comment"></i> <span>30 comments</span>
+                                     <i class="fa-solid fa-eye"></i> <span>152 views</span>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class=" col-12 col-md-6  ">
+                       <div class="blog__item">
+                        <div class="blog__pic">
+                            <a href="#"><img class="img-fluid" src="./img/g3.jpg" alt=""></a>
+                        </div>
+                        <div class="blog__desc">
+                            <a href="#">Delivering Happiness For Pets</a>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, deserunt.</p>
+                            <a href="#">John Smith</a><span> - May 23, 2020</span>
+                            <div class="blog__cmt-view">
+                                <i class="fa-solid fa-comment"></i> <span>30 comments</span>
+                                <i class="fa-solid fa-eye"></i> <span>152 views</span>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+           </div>
+           <div class="form__cmt mt-5 mb-4">
+                <h2>Leave a reply</h2>
+                <div class="row mt-4">
+                    <div class="col-12 col-sm-6 mb-3 px-2">
+                        <input type="text" placeholder="Your Name*">
+                    </div>
+                    <div class="col-12 col-sm-6 mb-3 px-2">
+                        <input type="text" placeholder="Email Address*">
+                    </div>
+                    <div class="col-12 col-sm-6 mb-3 px-2">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="col-12 col-sm-6 mb-3 px-2">
+                        <input type="text" placeholder="Phone">
+                    </div>
+                    <div class="col-12 px-2">   
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message*"></textarea>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer__content section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-4 col-md-6  col-lg-6 mb-lg-0">
+                        <div class="footer__item">
+                            <h3>Contact information</h3>
+                            <p><span>Address : </span>#135 block, Barnard St. Brooklyn, London 10036, UK</p>
+                            <p><span>Phone : </span><a href="#">+(12)234-11-24</a></p>
+                            <p><span>Email : </span><a href="#">example@mail.com</a></p>
+                            <i><a href="#"><i class="fa-brands fa-facebook-f"></i></a></i>
+                            <i><a href="#"><i class="fa-brands fa-twitter"></i></a></i>
+                            <i><a href="#"><i class="fa-brands fa-dribbble"></i></a></i>
+                            <i><a href="#"><i class="fa-brands fa-google"></i></a></i>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4 col-sm-6 col-md-6 col-lg-2 mb-lg-0">
+                        <div class="footer__item">
+                            <h3>Company</h3>
+                            <p><a href="#">About Us</a></p>
+                            <p><a href="#">Blog Posts</a></p>
+                            <p><a href="#">Services</a></p>
+                            <p><a href="#">Pricing</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4  col-sm-6 col-md-6 col-lg-2 mb-lg-0">
+                        <div class="footer__item">
+                            <h3>Quick Links</h3>
+                            <p><a href="#">Contact Us</a></p>
+                            <p><a href="#">Create account</a></p>
+                            <p><a href="#">Care Center</a></p>
+                            <p><a href="#">Site Feedback</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4   col-sm-6 col-md-6 col-lg-2 mb-lg-0">
+                        <div class="footer__item">
+                            <h3>Support</h3>
+                            <p><a href="#">All Dogs</a></p>
+                            <p><a href="#">Care Advices</a></p>
+                            <p><a href="#">Care Support</a></p>
+                            <p><a href="#">Veterinary Help</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <div class="copyright text-center ">
+        <p>© 2020 Pooch Care. All Rights Reserved. Design by <span>Name</span></p>
+    </div>
+
+    <!-- backToTop -->
+    <a class="backToTop cd-top text-replace js-cd-top" href="#"><i class="las la-level-up-alt"></i></a>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- dark and light theme  -->
+    <script>
+        /**
+       Solution: 
+       Khi click vào nút moon 🌙 , thẻ body sẽ được thêm class dark.
+       Dựa vào class dark, ta viết css dành riêng cho dark theme.
+       Ngược lại, khi click vào nút sun ☀️, ta sẽ xóa class dark để css light theme hiện lại
+       */
+        //gọi thẻ button có id là switchButton
+        // gắn chức năng click cho switchButton
+        document.getElementById("switchButton").onclick = function () {
+            //khi button được click thì tìm đến thẻ body có id là myBody
+            // dùng classlist để gọi thuộc tính class của thẻ body
+            //Sử dụng toggle() để thêm hoặc xóa 1 class của thẻ html. Nếu thẻ body không có class dark thì toggle sẽ thêm class dark vào body. Ngược lại, nếu thẻ body đang có class dark thì toogle sẽ xóa class dark đi.
+            document.getElementById("myBody").classList.toggle("dark");
+        };
+    </script>
+    <!-- backToTop -->
+    <script src="/js/backToTop.js"></script>
+    <script src="./js/util.js"></script>
+</body>
+
+</html>

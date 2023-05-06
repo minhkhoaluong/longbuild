@@ -1,0 +1,304 @@
+:root {
+    --footer-color: #111111;
+    --bg-color: #151515;
+    --primary-color: #189A46;
+    --heading-color: #ddd;
+    --font-color: #afafaf;
+    --border-color: #212529;
+    --secondary-color: #f53626;
+    --bg-light: rgba(147, 107, 232, 0.05);
+    --bg-dark-about: #222;
+    --button-hover: #116E32;
+}
+
+/* dark theme */
+.dark .experience {
+    background-color: var(--bg-color);
+}
+
+.dark .experience__text p {
+    color: var(--font-color);
+}
+
+.dark .title h4 {
+    color: var(--font-color);
+}
+
+.dark .why {
+    background-color: var(--bg-color);
+}
+
+.dark .why__desc a {
+    color: var(--heading-color);
+}
+
+.dark .why__desc p {
+    color: var(--font-color);
+}
+.dark .team {
+    background-color: var(--bg-dark-about);
+}
+.dark .team__name a{
+    color: var(--heading-color);
+}
+.dark .team__name p{
+    color: var(--heading-color);
+}
+
+
+
+
+
+
+
+
+
+/* BREADCRUMB */
+.breadcrumb-About {
+    height: 230px;
+    color: black;
+    background-image: url(../img/banner4.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.breadcrumb-About::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.544);
+
+}
+
+.breadcrumb-About .breadcrumb-About__content {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+
+    z-index: 5;
+}
+
+.breadcrumb-About .breadcrumb {
+    justify-content: center;
+}
+
+.breadcrumb-About h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+.breadcrumb-About .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+.breadcrumb-About .breadcrumb-item a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.breadcrumb-About .breadcrumb-item i,
+.breadcrumb-About .breadcrumb-item span {
+    color: white;
+}
+
+.breadcrumb-About .breadcrumb-item+.breadcrumb-item::before {
+    display: none;
+}
+
+/* EXPERIENCE */
+.experience__text p {
+    font-size: 20px;
+}
+
+/* HISTORY */
+.history {
+    position: relative;
+    background-image: url(../img/banner2.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.history::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+.history__content {
+    position: absolute;
+    z-index: 5;
+    color: white;
+}
+
+.history__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.history .title h3 {
+    color: white;
+}
+
+.history__content h4 {
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--font-color);
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.history__item {
+    padding-right: 20px;
+}
+
+.history__item h4 {
+    margin: 0;
+    color: white;
+    font-weight: 600;
+}
+
+.history__item p {
+    color: var(--font-color);
+    font-size: 18px;
+}
+
+/* WHY */
+.why__title h4 {
+    font-size: 18px;
+    color: gray;
+    font-weight: normal;
+}
+
+.why__title img {
+    border-radius: 10px;
+}
+
+.why__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.why__icon {
+    color: var(--primary-color);
+    font-size: 42px;
+    width: 110px;
+    height: 110px;
+    line-height: 48px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.why__desc a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+    transition: .5s;
+
+}
+
+.why__desc a:hover {
+    color: var(--primary-color);
+}
+
+.why__desc p {
+    font-size: 18px;
+}
+
+/* TEAM */
+.team {
+    background-color: var(--bg-light);
+}
+ 
+.team__pic img {
+    border-radius: 10px;
+    transition: .5s;
+}
+.team__name a{
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    transition: .5s;
+    font-weight: 600;
+    margin-top: 15px;
+    display: inline-block;
+}
+.team__card:hover .team__name a{
+    color: var(--primary-color);
+}
+.team__pic{
+    overflow: hidden;
+   border-radius: 10px;
+}
+.team__card:hover .team__pic img{
+    transform: scale(1.1);
+}
+.team__social a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color: var(--bg-light);
+    font-size: 14px;
+    border-radius: 6px;
+    color: var(--primary-color);
+    transition: .5s;
+}
+.team__social a:hover{
+    color: white;
+    background-color: var(--primary-color);
+}
+
+@media screen and (max-width:767.98px) {
+    .why__item {
+        display: block;
+        text-align: center;
+    }
+
+    .why__icon {
+        width: auto;
+        height: auto;
+        line-height: 50px;
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .breadcrumb-About h2 {
+        font-size: 30px;
+    }
+
+    .breadcrumb-About {
+        height: 150px;
+    }
+
+    .experience__text p {
+        font-size: 16px;
+    }
+
+    .history__items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .history {
+        height: 600px;
+    }
+}
