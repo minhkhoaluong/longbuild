@@ -364,12 +364,12 @@ header {
 }
 
 #carouselCare .carousel-item:nth-child(1) {
-    background-image: url(../img/banner1.jpg);
+    background-image: url(../img/z1.jpg);
 
 }
 
 #carouselCare .carousel-item:nth-child(2) {
-    background-image: url(../img/banner2.jpg);
+    background-image: url(../img/z2.jpg);
 }
 
 #carouselCare .carousel-item:nth-child(3) {
