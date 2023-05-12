@@ -373,11 +373,11 @@ header {
 }
 
 #carouselCare .carousel-item:nth-child(3) {
-    background-image: url(../img/z3.jpg);
+    background-image: url(../img/7.png);
 }
 
 #carouselCare .carousel-item:nth-child(4) {
-    background-image: url(../img/banner4.jpg);
+    background-image: url(../img/1.jpg);
 }
 
 #carouselCare .carousel-item::after {
